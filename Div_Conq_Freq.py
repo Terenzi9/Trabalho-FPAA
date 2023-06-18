@@ -17,7 +17,7 @@ def merge(left, right):
     i = j = 0
     
     while i < len(left) and j < len(right):
-        if left[i][1] < right[j][1]:
+        if left[i][1] < right[j][1] or (left[i][1] == right[j][1] and left[i][0] <= right[j][0]):
             merged.append(left[i])
             i += 1
         else:
@@ -34,7 +34,7 @@ def merge(left, right):
     
     return merged
 
-with open('palavras_300k.txt', 'r') as file:
+with open('palavras_100k.txt', 'r') as file:
     conteudo = file.read()
     palavras = conteudo.split()
 
@@ -50,7 +50,4 @@ with open('final_Freq.txt', 'w') as output_file:
 end_time = time.time()
 execution_time = end_time - start_time
 
-minutes = int(execution_time // 60)
-seconds = int(execution_time % 60)
-print(f"Execution time: {execution_time:.2f} seconds")
-
+print(f"Execution time 100k: {execution_time:.2f} seconds")

@@ -33,8 +33,7 @@ def merge(left, right):
     
     return merged
 
-# Read the palavras from palavras_100k.txt
-with open('palavras_300k.txt', 'r') as f:
+with open('palavras_100k.txt', 'r') as f:
     conteudo = f.read()
     palavras = conteudo.split()
 
@@ -42,11 +41,6 @@ start_time = time.time()
 
 palavras_total = merge_sort(palavras)
 
-
-# Convert execution time to minutes and seconds
-
-
-# Write the sorted palavras to final.txt
 with open('final_Ord.txt', 'w') as output_file:
     for palavra in palavras_total:
         print(palavra, file=output_file)
@@ -56,4 +50,4 @@ execution_time = end_time - start_time
 
 minutes = int(execution_time // 60)
 seconds = int(execution_time % 60)
-print(f"Execution time: {execution_time:.2f} seconds")
+print(f"Execution time 100k: {execution_time:.2f} seconds")

@@ -1,0 +1,61 @@
+
+
+Alfabetica
+
+Execution time 100k: 0.34 seconds
+Execution time 100k: 0.34 seconds
+Execution time 100k: 0.34 seconds
+
+Execution time 200k: 0.75 seconds
+Execution time 200k: 0.74 seconds
+Execution time 200k: 0.73 seconds
+
+Execution time 300k: 1.13 seconds
+Execution time 300k: 1.14 seconds
+Execution time 300k: 1.17 seconds
+
+Execution time 400k: 1.63 seconds
+Execution time 400k: 1.56 seconds
+Execution time 400k: 1.59 seconds
+
+Execution time 500k: 2.01 seconds
+Execution time 500k: 1.97 seconds
+Execution time 500k: 2.00 seconds
+
+Execution time 600k: 2.45 seconds
+Execution time 600k: 2.44 seconds
+Execution time 600k: 2.44 seconds
+
+Execution time 700k: 2.89 seconds
+Execution time 700k: 2.91 seconds
+Execution time 700k: 2.91 seconds
+
+Frequencia
+
+Execution time 100k: 0.07 seconds
+Execution time 100k: 0.07 seconds
+Execution time 100k: 0.07 seconds
+
+Execution time 200k: 0.13 seconds
+Execution time 200k: 0.13 seconds
+Execution time 200k: 0.13 seconds
+
+Execution time 300k: 0.22 seconds
+Execution time 300k: 0.20 seconds
+Execution time 300k: 0.20 seconds
+
+Execution time 400k: 0.28 seconds
+Execution time 400k: 0.27 seconds
+Execution time 400k: 0.26 seconds
+
+Execution time 500k: 0.35 seconds
+Execution time 500k: 0.33 seconds
+Execution time 500k: 0.33 seconds
+
+Execution time 600k: 0.42 seconds
+Execution time 600k: 0.41 seconds
+Execution time 600k: 0.41 seconds
+
+Execution time 700k: 0.49 seconds
+Execution time 700k: 0.47 seconds
+Execution time 700k: 0.47 seconds
